@@ -19,6 +19,7 @@ Sono uno sviluppatore specializzato nella modernizzazione di processi in **Micro
 ## 🏗️ Architettura di Integrazione Enterprise
 Progetto flussi di dati resilienti tra ERP e sistemi esterni (ServiceNow, SAP, Custom Apps) utilizzando il paradigma **Serverless**:
 
+```mermaid
 graph LR
     subgraph ERP [D365 F&O / AX]
         A[Business Logic] -->|OData / Service Bus| B(Integration Layer)
@@ -38,6 +39,7 @@ graph LR
     style C fill:#0078d4,stroke:#333,stroke-width:2px,color:#fff
     style A fill:#002050,stroke:#333,stroke-width:2px,color:#fff
     style F fill:#293e40,stroke:#333,stroke-width:2px,color:#fff
+```
 
 ---
 
